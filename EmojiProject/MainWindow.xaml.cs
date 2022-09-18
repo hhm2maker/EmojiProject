@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Media;
 using System.Reflection;
@@ -60,6 +61,11 @@ namespace EmojiProject
 
             Left = SystemParameters.WorkArea.Size.Height * 0.1;
             Top = SystemParameters.WorkArea.Size.Height * 0.1;
+
+            if (!File.Exists(iniPath))
+            {
+                File.Create(iniPath);
+            }
         }
 
         static int GetRandomSeed()
