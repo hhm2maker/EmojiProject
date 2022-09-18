@@ -43,17 +43,22 @@
                 </Border>
                 <DockPanel Margin="0,20,0,0">
                     <TextBlock DockPanel.Dock="Left" Width="100" Text="emoji" FontSize="16" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                    <TextBox Name="tbEmoji" DockPanel.Dock="Left" Foreground="White" MinWidth="200" FontSize="16" Background="#18191E" BorderThickness="0" Padding="40,10,40,10" LostFocus="TextBox_LostFocus"/>
+                    <TextBox Name="tbEmoji" DockPanel.Dock="Left" Foreground="White" MinWidth="200" FontSize="16" Background="#18191E" BorderThickness="0" Padding="20,10,20,10" LostFocus="TextBox_LostFocus"/>
                 </DockPanel>
                 <TextBlock DockPanel.Dock="Left" Text="用空格隔开(例如：1F642 1F643)" FontSize="16" Foreground="White" Margin="0,10,0,0"/>
                 <DockPanel Margin="0,20,0,0">
                     <TextBlock DockPanel.Dock="Left" Width="100" Text="卡片数量" FontSize="16" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                    <TextBox Name="tbEmojiCount" DockPanel.Dock="Left" Foreground="White" MinWidth="200" FontSize="16" Background="#18191E" BorderThickness="0" Padding="40,10,40,10" LostFocus="TextBox_LostFocus"/>
+                    <TextBox Name="tbEmojiCount" DockPanel.Dock="Left" Foreground="White" MinWidth="200" FontSize="16" Background="#18191E" BorderThickness="0" Padding="20,10,20,10" LostFocus="TextBox_LostFocus"/>
                 </DockPanel>
                 <DockPanel Margin="0,20,0,0">
                     <TextBlock DockPanel.Dock="Left" Width="100" Text="卡片组数" FontSize="16" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                    <TextBox Name="tbEmojiGroup" DockPanel.Dock="Left" Foreground="White" MinWidth="200" FontSize="16" Background="#18191E" BorderThickness="0" Padding="40,10,40,10" LostFocus="TextBox_LostFocus"/>
+                    <TextBox Name="tbEmojiGroup" DockPanel.Dock="Left" Foreground="White" MinWidth="200" FontSize="16" Background="#18191E" BorderThickness="0" Padding="20,10,20,10" LostFocus="TextBox_LostFocus"/>
                 </DockPanel>
+                <DockPanel Margin="0,30,0,0">
+                    <TextBlock DockPanel.Dock="Left" Width="100" Text="项目地址" FontSize="16" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    <TextBox Text="https://github.com/hhm2maker/EmojiProject" DockPanel.Dock="Left" Foreground="White" MinWidth="200" FontSize="16" Background="#18191E" BorderThickness="0" Padding="20,10,20,10" LostFocus="TextBox_LostFocus"/>
+                </DockPanel>
+                <TextBlock DockPanel.Dock="Left" Text="音乐资源：https://www.aigei.com/" FontSize="16" Foreground="White" Margin="0,10,0,0"/>
             </StackPanel>
         </Grid>
     </Grid>
